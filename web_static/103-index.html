@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/103-common.css">
+    <link rel="stylesheet" href="styles/103-header.css">
+    <link rel="stylesheet" href="styles/103-footer.css">
+    <link rel="stylesheet" href="styles/103-filters.css">
+    <link rel="stylesheet" href="styles/103-places.css">
+    <title>AirBnB clone</title>
+  </head>
+  <body>
+    <header>
+      <div class="mobile_nav">
+         <label for="main_check" class="main_nav_burguer">|||</label>
+        <input type="checkbox" id="main_check" name="main_check" class="main_nav_check">
+          <nav>
+              <ul class="nav_bar_level1">
+                <li>
+                    <label for="second_check"><span>States</span></label>
+                    <input type="checkbox" name="second_check" id="second_check">
+                  <ul>
+                    <li><span>Takoradi</span></li>
+                    <li><span>Accra</span></li>
+                  </ul>
+                  </li>
+                <li>
+                  <label for="third_check"><span>Amenities</span></label>
+                  <input type="checkbox" name="second_check" id="third_check">
+                  <ul>
+                    <li><span>Internet</span></li>
+                    <li><span>Tv</span></li>
+                    <li><span>Wifi</span></li>
+                    <li><span>Kitchen</span></li>
+                    <li><span>Iron</span></li>
+                  </ul>
+                  </li>
+              </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>Takoradi Accra...</h4>
+          <ul class="popover">
+            <li><h2>Takoradi:</h2>
+              <ul>
+                <li>Page</li>
+                <li>Page2</li>
+              </ul>
+            </li>
+            <li><h2>Accra:</h2>
+              <ul>
+                <li>Airport Residential</li>
+                <li>Tema</li>
+              </ul>
+            </li>
+            </ul>
+        </div>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, Kitchen...</h4>
+          <ul class="popover">
+            <li>TV</li>
+            <li>Iron</li>
+            <li>Internet</li>
+            <li>Kitchen</li>
+          </ul>
+        </div>
+        <button type="button" name="button">Search</button>
+      </section>
+
+      <section class="places">
+        <h1>Places</h1>
+        <article>
+          <div class="article_places_header">
+            <h2>Resting Lounge</h2>
+            <div class="price_by_night">$250</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">2 Bedroom</div>
+            <div class="number_bathrooms">2 Bathroom</div>
+          </div>
+          <div class="user">
+            <p><b>Owner:</b>Ohemaa Nsafoa</p>
+          </div>
+          <div class="description">
+          <p>Whether you are looking for a romantic weekend or a tranquilpersonal time, the resting lounge provides a haven for relaxation and rejuvenation</p>
+          </div>
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Rosypoms 22nd september 2023</h3>
+                <p>I recently had the pleasure of staying at the cozy Cabin and it was nothing short of a margical experience.It's a place where you can create lasting memories and leaving feeling refreshed and inspired</p>
+              </li>
+              <li>
+                <h3>From Abimat 15th september 2023</h3>
+                <p>Highly recommended!Its a peaceful haven where you can disconnect from the world and reconnect with nature.</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2>Luxury Villa</h2>
+          <div class="price_by_night">$350</div>
+          <div class="information">
+            <div class="max_guest">4 Guests</div>
+            <div class="number_rooms">4 Bedrooms</div>
+            <div class="number_bathrooms">4 Bathroom</div>
+          </div>
+          <div class="user">
+            <p><b>Owner:</b> Frosty Barbie</p>
+          </div>
+          <div class="description">
+            <p>The Luxury Villa is the epitome of opulence and sophistication. This exquisite property offers an extravagant retreat for those seeking the finer things in life.With its grand architecture and elegant design, the villa boasts spacious living areas, multiple bedrooms with en-suite bathrooms, and stunning panoramic views of the surrounding landscape.Enjoy the ultimate in relaxation with private pool, garden and kitchen fit for a chef. The Luxury Villa provides an unparalleled experience for luxury travelers, where every detail is thoughtfully curated to ensure a lavish and unforgettable stay.</p>
+          </div>
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+                     <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Fredy 22nd september 2023</h3>
+                <p>Every corner of the villa is a testament to luxury and sophistication.The spacious living areas, adorned with elegant furnishing and tasteful decor, left me in awe. If you are looking for a once in a lifetime luxury getaway, the Luxury Villa is the palce to be.</p>
+              </li>
+              <li>
+                <h3>From Grolly 15th september 2022</h3>
+                <p>Its a place that will leave you feeling pampered, rejuvenated and utterly enchanted.</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article>
+       </h2>Night Club Resort</h2>
+          <div class="price_by_night">$300</div>
+          <div class="information">
+            <div class="max_guest">10 Guests</div>
+            <div class="number_rooms">5 Bedroom</div>
+            <div class="number_bathrooms">6 Bathroom</div>
+          </div>
+          <div class="user">
+            <p><b>Owner:</b> Gracious Vate</p>
+          </div>
+          <div class="description">
+            <p>Its a resort where the party never stops, and the excitement is endless.This vibrant resort is the ultimate destination for those seeking a unique blend of nightlife and relaxation.The resort boasts multiple themed nightclubs, each offering a different genre of music and atmosphere. Dance the night away to the hottest DJs, sip on craft cocktails at the chic bars, and enjoy mesmerizing performances by world-class entertainers. With a 24-hour party scene, you'll find yourself immersed in a nocturnal playground where every night is an adventure.</p>
+          </div>
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Trudee the 22nd september, 2023</h3>
+                <p>The nightlife here is off the charts with world-lass DJs and a fantastic atmosphere. This resort is perfect for those who want the best of both worlds.</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        </section>
+    </div>
+    <footer arai-label="Footer Brand information">
+      <p>Best School</p>
+    </footer>
+  </body>
+</html>
